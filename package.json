@@ -1,0 +1,14 @@
+{
+  "name": "the_shop",
+  "version": "1.1.0",
+  "author": "FL",
+  "scripts": {
+    "start": "npm run server",
+    "server": "live-server public --host=$IP --port=$PORT --middleware=./disable-browser-cache.js"
+  },
+  "private": true,
+  "devDependencies": {
+    "concurrently": "2.2.0",
+    "live-server": "git://github.com/acco/live-server.git"
+  }
+}
